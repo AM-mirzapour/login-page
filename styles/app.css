@@ -1,0 +1,90 @@
+body {
+  background-color: #080710;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Poppins";
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+input,
+button {
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+.wrapper {
+  width: 400px;
+  height: 450px;
+  position: relative;
+}
+.circle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 100%;
+}
+.cercle1 {
+  background: linear-gradient(#0D47A1, #42A5F5);
+  top: -80px;
+  left: -100px;
+}
+.cercle2 {
+  background: linear-gradient(45deg, #E65100, #FFA726);
+  bottom: -80px;
+  right: -100px;
+}
+.form {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.13);
+  border: 2px solid rgba(255, 255, 255, 0.13);
+  padding: 50px 35px 35px 35px;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 40px rgb(0, 0, 0 , 0.7);
+  backdrop-filter: blur(30px);
+}
+.form__title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.form__input-wrapper {
+  margin-bottom: 2rem;
+}
+.form-label {
+  font-size: 16px;
+}
+.form-input {
+  display: block;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.07);
+  height: 50px;
+  padding: 0 10px;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+  color: #fff;
+}
+.form-input::placeholder {
+  color: #fff;
+}
+.form-submit_btn{
+  background-color: #fff;
+  color: #080710;
+  padding: 15px 0;
+  width: 100%;
+  font-size: 18px;
+  display: block;
+  text-align: center;
+  margin-top: 3.5rem;
+}
